@@ -1,0 +1,4 @@
+store_id,store_name,store_type,city,state,country,opened_date,updated_at
+S001,Hyderabad Central,Offline,Hyderabad,TS,IN,2021-06-01,2026-03-01
+S002,Bengaluru South,Offline,Bengaluru,KA,IN,2020-10-10,2026-03-01
+S003,Online Store,Online,NA,NA,IN,2019-01-01,2026-03-02
