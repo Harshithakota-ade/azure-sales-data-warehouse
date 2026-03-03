@@ -1,0 +1,24 @@
+{
+  "name": "pl_ingest_raw",
+  "properties": {
+    "description": "Copy sales CSV extracts from source to ADLS raw layer (watermark ready).",
+    "activities": [
+      {
+        "name": "Copy_Customers_To_Raw",
+        "type": "Copy",
+        "typeProperties": {
+          "source": { "type": "DelimitedTextSource" },
+          "sink": { "type": "DelimitedTextSink" }
+        }
+      },
+      {
+        "name": "Copy_Orders_To_Raw",
+        "type": "Copy",
+        "typeProperties": {
+          "source": { "type": "DelimitedTextSource" },
+          "sink": { "type": "DelimitedTextSink" }
+        }
+      }
+    ]
+  }
+}
