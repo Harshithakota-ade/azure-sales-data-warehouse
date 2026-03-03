@@ -1,0 +1,6 @@
+product_id,product_name,category,brand,unit_price,cost_price,created_at,updated_at
+P001,Wireless Mouse,Accessories,LogiMax,899,520,2025-01-01,2026-03-01
+P002,Mechanical Keyboard,Accessories,KeyPro,3499,2400,2025-01-03,2026-03-01
+P003,27in Monitor,Displays,ViewZen,14999,11200,2025-01-10,2026-03-02
+P004,USB-C Hub,Accessories,Portify,1999,1200,2025-02-01,2026-03-02
+P005,Laptop 14in,Computers,NoteX,58999,51000,2025-02-15,2026-03-02
