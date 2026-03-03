@@ -1,0 +1,29 @@
+{
+  "name": "pl_databricks_transform",
+  "properties": {
+    "description": "Execute Databricks notebooks for Bronze->Silver->Gold.",
+    "activities": [
+      {
+        "name": "Run_01_Bronze",
+        "type": "DatabricksNotebook",
+        "typeProperties": {
+          "notebookPath": "/Repos/azure-sales-data-warehouse/notebooks/01_bronze_ingest"
+        }
+      },
+      {
+        "name": "Run_02_Silver",
+        "type": "DatabricksNotebook",
+        "typeProperties": {
+          "notebookPath": "/Repos/azure-sales-data-warehouse/notebooks/02_silver_clean_dedup"
+        }
+      },
+      {
+        "name": "Run_03_04_05_Gold_DQ",
+        "type": "DatabricksNotebook",
+        "typeProperties": {
+          "notebookPath": "/Repos/azure-sales-data-warehouse/notebooks/05_data_quality_checks"
+        }
+      }
+    ]
+  }
+}
