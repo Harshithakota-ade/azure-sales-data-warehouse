@@ -1,0 +1,6 @@
+customer_id,customer_name,email,phone,city,state,country,created_at,updated_at
+C001,Aarav Sharma,aarav.sharma@email.com,9876500011,Bengaluru,KA,IN,2025-01-05,2026-03-01
+C002,Diya Iyer,diya.iyer@email.com,9876500022,Chennai,TN,IN,2025-02-10,2026-03-01
+C003,Rahul Verma,rahul.verma@email.com,9876500033,Hyderabad,TS,IN,2025-03-20,2026-03-02
+C004,Ananya Singh,ananya.singh@email.com,9876500044,Pune,MH,IN,2025-05-12,2026-03-02
+C005,Vikram Nair,vikram.nair@email.com,9876500055,Kochi,KL,IN,2025-07-01,2026-03-02
